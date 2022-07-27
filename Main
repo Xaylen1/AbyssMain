@@ -272,23 +272,6 @@ Icon = "rbxassetid://4483345998",
 PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Flying Car",
-	Callback = function()
-        getglobal game
-        getfield -1 Players
-        getfield -1 LocalPlayer
-        getfield -1 Character
-        getfield -1 HumanoidRootPart
-        getglobal CFrame
-        getfield -1 new
-        pushnumber 827.95532226562
-        pushnumber 100.98998260498
-        pushnumber 2347.0852050781
-        pcall 3 1 0
-        setfield -3 CFrame
-        end 
-})
-Tab:AddButton({
 	Name = "Arrest All",
 	Callback = function()
         workspace.Remote.TeamEvent:FireServer("Bright blue")
